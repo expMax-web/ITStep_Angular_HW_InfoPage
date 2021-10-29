@@ -1,0 +1,11 @@
+.info-item {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 10px 0;
+  text-align: right;
+}
+
+.info-item span {
+  text-align: left;
+}

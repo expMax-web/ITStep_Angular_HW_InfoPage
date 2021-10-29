@@ -1,0 +1,20 @@
+<article class="infoContainer">
+  <h1 class="title">Personal Page</h1>
+  <div class="InfoContainer">
+    <app-avatar></app-avatar>
+
+    <div class="itemInfoContainer">
+      <app-main-info
+        [fullName]="Person.fullName"
+        [mobilPhone]="Person.mobilPhone"
+        [city]="Person.city"
+      ></app-main-info>
+      <app-extra-info
+        [email]="Person.email"
+        [workExperience]="Person.workExperience"
+        [skills]="Person.skills"
+      >
+      </app-extra-info>
+    </div>
+  </div>
+</article>

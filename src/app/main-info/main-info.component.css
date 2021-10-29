@@ -1,0 +1,9 @@
+.main-info-container {
+  padding-top: 20px;
+}
+.info-item {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 10px 0;
+}
