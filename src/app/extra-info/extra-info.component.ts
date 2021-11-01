@@ -13,6 +13,10 @@ export class ExtraInfoComponent implements OnInit {
   @Input() workExperience!:string;
   @Input() skills!:string;
   
+  elementStyles: any = {
+    color: 'red',
+    opacity: 0.5,
+  }
   constructor() { }
 
   ngOnInit(): void {

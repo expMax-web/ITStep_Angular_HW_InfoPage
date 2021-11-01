@@ -10,7 +10,8 @@ export class MainInfoComponent implements OnInit {
 @Input() fullName!:string;
 @Input() mobilPhone!:string;
 @Input() city!:string;
-
+@Input() ShowName!:boolean;
+@Input() birthday!:string;
   constructor() { }
 
   ngOnInit(): void {
