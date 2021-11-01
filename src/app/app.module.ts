@@ -6,6 +6,7 @@ import { ArticleComponent } from './article/article.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { MainInfoComponent } from './main-info/main-info.component';
 import { ExtraInfoComponent } from './extra-info/extra-info.component';
+import { KeySkillsComponent } from './key-skills/key-skills.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ExtraInfoComponent } from './extra-info/extra-info.component';
     ArticleComponent,
     AvatarComponent,
     MainInfoComponent,
-    ExtraInfoComponent
+    ExtraInfoComponent,
+    KeySkillsComponent
   ],
   imports: [
     BrowserModule

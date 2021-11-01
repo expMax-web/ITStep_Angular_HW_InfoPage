@@ -5,6 +5,6 @@
   <p class="info-item">
     <span>Birthday:</span>{{ birthday | date: "dd.MM.yyyy" }}
   </p>
-  <p class="info-item"><span>Phone:</span>{{ mobilPhone }}</p>
+  <p class="info-item" *ngIf="showPhone"><span>Phone:</span>{{ mobilPhone }}</p>
   <p class="info-item"><span>City:</span>{{ city }}</p>
 </div>
