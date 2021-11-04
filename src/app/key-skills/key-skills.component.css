@@ -1,0 +1,9 @@
+.KeySkillsList {
+  list-style-type: none;
+  display: flex;
+  font-size: 30px;
+  padding: 10px 10px 10px 80px;
+}
+.KeySkillsItem {
+  padding: 0 5px;
+}
