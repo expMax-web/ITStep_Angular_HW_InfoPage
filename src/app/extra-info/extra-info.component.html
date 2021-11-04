@@ -4,4 +4,25 @@
   <p [ngStyle]="elementStyles" class="info-item">
     <span>Skills:</span>{{ skills | lowercase }}
   </p>
+  <p class="info-item">
+    <span>Desired salary:</span>{{ desiredSalary | currency }}
+  </p>
+  <p class="info-item">
+    <span> Progress in learning react:</span>{{ percentLearnReact | percent }}
+  </p>
+
+  <div [ngSwitch]="programmingLanguage">
+    <p class="info-item" *ngSwitchCase="'PHP'">
+      <span> Knowledge of other programming languages:</span>PHP
+    </p>
+    <p class="info-item" *ngSwitchCase="'RUBY'">
+      <span> Knowledge of other programming languages:</span>RUBY
+    </p>
+    <p class="info-item" *ngSwitchCase="'C++'">
+      <span> Knowledge of other programming languages:</span>C++
+    </p>
+    <p class="info-item" *ngSwitchDefault>
+      Knowledge of other programming languages ​​is lacking
+    </p>
+  </div>
 </div>

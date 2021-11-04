@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class MainInfoComponent implements OnInit {
 
+  showPhone:boolean = false
+
 @Input() fullName!:string;
 @Input() mobilPhone!:string;
 @Input() city!:string;
