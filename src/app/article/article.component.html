@@ -1,9 +1,9 @@
-<article class="infoContainer">
-  <h1 [ngClass]="{emailBlack}" class="title">Personal Page</h1>
+<article class="MainContainer">
+  <h1 [ngClass]="{emailBlack}" class="Title">Personal Page</h1>
   <div class="InfoContainer">
     <app-avatar></app-avatar>
 
-    <div class="itemInfoContainer">
+    <div class="ItemInfoContainer">
       <app-main-info
         [fullName]="Person.fullName"
         [birthday]="Person.birthday"
@@ -23,4 +23,13 @@
     </div>
   </div>
   <app-key-skills [keySkills]="keySkills"></app-key-skills>
+  <app-work-experience
+    [epam]="workExperience.epam"
+    [elma]="workExperience.elma"
+    [google]="workExperience.google"
+  ></app-work-experience>
+  <app-about-skills
+    [skills]="skills"
+    [sertificate]="sertificate"
+  ></app-about-skills>
 </article>

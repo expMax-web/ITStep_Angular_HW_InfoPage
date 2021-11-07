@@ -7,6 +7,8 @@ import { AvatarComponent } from './avatar/avatar.component';
 import { MainInfoComponent } from './main-info/main-info.component';
 import { ExtraInfoComponent } from './extra-info/extra-info.component';
 import { KeySkillsComponent } from './key-skills/key-skills.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { AboutSkillsComponent } from './about-skills/about-skills.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { KeySkillsComponent } from './key-skills/key-skills.component';
     AvatarComponent,
     MainInfoComponent,
     ExtraInfoComponent,
-    KeySkillsComponent
+    KeySkillsComponent,
+    WorkExperienceComponent,
+    AboutSkillsComponent
   ],
   imports: [
     BrowserModule

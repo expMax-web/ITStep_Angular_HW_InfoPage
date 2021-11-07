@@ -1,0 +1,21 @@
+.Title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.WorkExpContainer {
+  padding: 20px 50px 0px 50px;
+  width: 100%;
+}
+.WorkExpList {
+  list-style-type: none;
+  width: 100%;
+  font-size: 26px;
+}
+.WorkExpItem {
+  width: 60%;
+  height: 50px;
+}
+.DateOfWork {
+  font-weight: 700;
+  padding-right: 100px;
+}

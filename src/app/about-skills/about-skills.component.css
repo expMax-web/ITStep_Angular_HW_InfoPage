@@ -1,0 +1,26 @@
+.Title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.SkillsContainer {
+  padding: 20px 50px 0px 50px;
+  width: 100%;
+  display: flex;
+}
+.SkillsList {
+  list-style-type: none;
+  width: 50%;
+  font-size: 26px;
+}
+.SkillsListItem {
+  height: 50px;
+}
+.СertificateList {
+  list-style-type: none;
+  width: 50%;
+  font-size: 26px;
+}
+.СertificateListItem {
+  height: 50px;
+}

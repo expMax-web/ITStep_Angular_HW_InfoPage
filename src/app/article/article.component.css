@@ -1,4 +1,4 @@
-.infoContainer {
+.MainContainer {
   border: 1px solid black;
   border-radius: 30px;
   width: 1200px;
@@ -6,7 +6,7 @@
   padding: 20px;
   background-color: rgb(250, 250, 250);
 }
-.title {
+.Title {
   text-align: center;
   padding-top: 50px;
   color: rgb(189, 116, 47);
@@ -18,7 +18,7 @@
   justify-content: space-between;
   padding: 20px 50px 0 50px;
 }
-.itemInfoContainer {
+.ItemInfoContainer {
   width: 55%;
 }
 .emailBlack {
