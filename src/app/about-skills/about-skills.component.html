@@ -1,0 +1,13 @@
+<section class="SkillsContainer">
+  <ul class="SkillsList">
+    <p class="Title">About my skills:</p>
+
+    <li class="SkillsListItem" *ngFor="let skill of skills">- {{ skill }}</li>
+  </ul>
+  <ul class="СertificateList">
+    <p class="Title">Сertificate:</p>
+    <li class="СertificateListItem" *ngFor="let item of sertificate">
+      - {{ item }}
+    </li>
+  </ul>
+</section>
